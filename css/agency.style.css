@@ -1,0 +1,80 @@
+
+
+i.icon-2lg {
+	width: 100px;
+	height: 100px;
+	line-height: 95px;
+	font-size: 35px;
+}
+i.icon-3lg {
+	width: 130px;
+	height: 130px;
+	line-height: 115px;
+	font-size: 40px;
+}
+i.icon-color-u {
+  border: 1px solid #0096ff;
+  color: #0096ff;
+}
+i.icon-border-v2 {
+	border: 4px solid #504a51;
+}
+i.icon-border-v3 {
+	border: 10px solid #f8f8f8;
+}
+
+i.icon-v4 {
+	width: 40px;
+	height: 40px;
+	line-height: 1;
+	font-size: 40px;
+	color: #0096ff;
+	display: inline-block;
+}
+
+i.num-icon-v2 {
+  border: 4px solid #504a51;
+  color: #0096ff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  width: 40px;
+  height: 40px;
+  line-height: 33px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.g-icon-hover-1 {
+	position: relative;
+	transition: border-color .3s ease-in-out;
+	transition: box-shadow .4s ease-in-out;
+	transition: background .5s ease-in-out;
+}
+i.icon-border-v3.g-icon-hover-1:hover {
+	border-color: transparent;
+	color: #fff;
+}
+.g-icon-hover-1 span {
+	display: block;
+	border-radius: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	transform: scale(0);
+	transition: all .2s ease-in-out;
+}
+.g-icon-hover-1:hover span {
+	transform: scale(1);
+}
+i.icon-3lg.g-icon-hover-1 span {
+	top: -10px;
+	left: -10px;
+	right: -10px;
+	bottom: -10px;
+}
+i.icon-border-v3.g-icon-hover-1 span {
+	background: #0096ff;
+}
